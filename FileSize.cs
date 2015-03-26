@@ -9,6 +9,7 @@ class Filesize{
         size = 0;
         qf = new Queue();
     }
+    
     public long GetSize(string directory)
     {
         // Make a reference to a directory.
@@ -58,7 +59,6 @@ class Filesize{
                         qf.Enqueue(s2);
                     }
                 }
-
             }
             catch (Exception e)
             {
